@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Bherunath Namkeen</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+
+    <div class="logo">
+        <h2>🥨 Shree Bherunath Namkeen</h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search Namkeen...">
+        <button>🔍</button>
+    </div>
+
+    <div class="header-icons">
+        <a href="#">❤️</a>
+        <a href="#">🛒 <span id="cart-count">0</span></a>
+        <a href="#" class="login-btn">Login</a>
+    </div>
+
+</header>
+
+<!-- Slider -->
+<section class="slider">
+    <img id="slide" src="images/1.jpg" alt="Banner">
+</section>
+
+<!-- Hero -->
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>Fresh & Crispy Namkeen</h1>
+
+        <p>Traditional Taste with Premium Quality</p>
+
+        <a href="https://wa.me/919427029020" class="btn">
+            Order Now
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Categories -->
+
+<section class="categories">
+
+<h2>Our Categories</h2>
+
+<div class="category-container">
+
+<div class="category-card">
+<img src="images/2.jpg">
+<h3>Ratlami Sev</h3>
+</div>
+
+<div class="category-card">
+<img src="images/3.jpg">
+<h3>Bhujia</h3>
+</div>
+
+<div class="category-card">
+<img src="images/4.webp">
+<h3>Mix Namkeen</h3>
+</div>
+
+<div class="category-card">
+<img src="images/5.jpg">
+<h3>Papdi</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- New Arrivals -->
+
+<section class="products">
+
+<h2>New Arrivals</h2>
+
+<div class="product-container">
+
+<div class="product-card">
+<img src="images/6.jpg">
+<h3>Farsi Pudi</h3>
+<p class="price">₹240 / KG</p>
+<button onclick="addToCart()">Add To Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/07.png">
+<h3>Gujarati Moong Kachori</h3>
+<p class="price">₹240 / KG</p>
+<button onclick="addToCart()">Add To Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/8.png">
+<h3>Methi Khakhra</h3>
+<p class="price">₹240 / KG</p>
+<button onclick="addToCart()">Add To Cart</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- Special Offer -->
+
+<section class="offer">
+
+<h2>🔥 Special Offer</h2>
+
+<h1>Buy 10 KG Namkeen & Get 5% Discount</h1>
+
+<p>Fresh • Crispy • Homemade Taste</p>
+
+<a href="https://wa.me/919427029020" class="offer-btn">
+Order Now
+</a>
+
+</section>
+
+<!-- Reviews -->
+
+<section class="reviews">
+
+<h2>Our Happy Customers</h2>
+
+<div class="review-container">
+
+<div class="review-card">
+⭐⭐⭐⭐⭐
+<p>"Best Ratlami Sev in Rajsamand."</p>
+<h4>Rahul Sharma</h4>
+</div>
+
+<div class="review-card">
+⭐⭐⭐⭐⭐
+<p>"Very Fresh & Tasty Namkeen."</p>
+<h4>Pooja Jain</h4>
+</div>
+
+<div class="review-card">
+⭐⭐⭐⭐⭐
+<p>"Fast Service and Great Taste."</p>
+<h4>Amit Patel</h4>
+</div>
+
+</div>
+
+</section>
+
+<!-- Best Selling -->
+
+<section class="best-selling">
+
+<h2>🔥 Best Selling Products</h2>
+
+<div class="best-container">
+
+<div class="best-card">
+<span class="badge">BEST SELLER</span>
+<img src="images/2.jpg">
+<h3>Special Ratlami Sev</h3>
+<p>₹200 / KG</p>
+<button onclick="addToCart()">Add To Cart</button>
+</div>
+
+<div class="best-card">
+<span class="badge">HOT</span>
+<img src="images/3.jpg">
+<h3>Bhujia</h3>
+<p>₹200 / KG</p>
+<button onclick="addToCart()">Add To Cart</button>
+</div>
+
+<div class="best-card">
+<span class="badge">NEW</span>
+<img src="images/4.webp">
+<h3>Mix Namkeen</h3>
+<p>₹200 / KG</p>
+<button onclick="addToCart()">Add To Cart</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-box">
+<h2>Shree Bherunath Namkeen</h2>
+<p>Fresh, Crispy & Traditional Namkeen.</p>
+</div>
+
+<div class="footer-box">
+<h3>Quick Links</h3>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Offers</a>
+<a href="#">Contact</a>
+</div>
+
+<div class="footer-box">
+<h3>Contact</h3>
+<p>📍 Kelwa Chapati, Rajsamand</p>
+<p>📞 +91 9427029020</p>
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+© 2026 Shree Bherunath Namkeen
+</p>
+
+</footer>
+
+<!-- WhatsApp -->
+
+<a href="https://wa.me/919427029020" class="whatsapp">
+💬
+</a>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
