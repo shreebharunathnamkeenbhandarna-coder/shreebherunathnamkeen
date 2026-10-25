@@ -132,7 +132,7 @@ nav ul li a:hover{
     color:white;
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-    url("images/01.jpg");
+    url("./01.jpg");
     background-size:cover;
     background-position:center;
 }
