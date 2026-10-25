@@ -6,11 +6,13 @@
 
 const images = [
 
-"./1.jpg",
+"./B1.jpg",
 
-"./2.jpg",
+"./B2.jpg",
 
-"./3.jpg"
+"./B3.jpg",
+
+"./B4.jpg",
 
 ];
 
