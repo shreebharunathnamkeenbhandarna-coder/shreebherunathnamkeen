@@ -6,11 +6,11 @@
 
 const images = [
 
-"images/banner1.jpg",
+"images/1.jpg",
 
-"images/banner2.jpg",
+"images/2.jpg",
 
-"images/banner3.jpg"
+"images/3.jpg"
 
 ];
 
